@@ -1,5 +1,6 @@
 # DTDI-DataAnalysis
 ###2d and 3d MDS data visualization
+[DTDI project page](https://tw.rpi.edu//web/project/DTDI)
 
 The original data is in the .xlsx file. It's a spreadsheet of ~730 rocks with their associated minerals.
 
