@@ -1,5 +1,5 @@
 # DTDI-DataAnalysis
-###2d and 3d MDS data visualization
+### 2d and 3d MDS data visualization
 [DTDI project page](https://tw.rpi.edu//web/project/DTDI)
 
 The original data is in the .xlsx file. It's a spreadsheet of ~730 rocks with their associated minerals.
@@ -17,5 +17,13 @@ distance between mineral 1 and mineral 2 is calculated as:  1 - b / min((a + b),
 ```
 on macOS, [XQuartz]( https://www.xquartz.org/) needs to be installed along with the rgl R package to make the 3d plots work.
 
+#### BibTeX
 
-
+```
+@misc{morrison2017network,
+  title={Network analysis of mineralogical systems},
+  author={Morrison, Shaunna M and Liu, Chao and Eleish, Ahmed and Prabhu, Anirudh and Li, Congrui and Ralph, Jolyon and Downs, Robert T and Golden, Joshua J and Fox, Peter and Hummer, Daniel R and others},
+  year={2017},
+  publisher={Mineralogical Society of America}
+}
+```
