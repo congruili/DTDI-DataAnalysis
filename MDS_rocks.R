@@ -2,6 +2,9 @@ install.packages("rgl")
 library(rgl)
 rm(list = ls())
 
+rocks = read.csv("rocks.csv", header = TRUE)
+color = read.csv("color.csv", header = TRUE)
+
 rocks[is.na(rocks)] <- 0
 n <- ncol(rocks)
 distances <- data.frame(matrix(ncol = n, nrow = n))
